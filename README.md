@@ -20,4 +20,6 @@ Here is the visualization of the VAE for the same dataset:
 
 Showing below is the grid of the VAE ,followed by the AE's grid ,notice that the VAE gives more readable results at the interpolation points ,showcasing it's usability for generative AI related tasks.
 ![VAE-grid](VAE_grid.jpeg)
+
+AE's grid below
 ![AE-grid](AE_grid.jpeg)
