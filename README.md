@@ -17,3 +17,7 @@ A side by side comparison of the latent variables shows the advantages of VAE's 
 Here is the visualization of the VAE for the same dataset:
 
 ![VAE-AE](test_0_1.gif)
+
+Showing below is the grid of the VAE ,followed by the AE's grid ,notice that the VAE gives more readable results at the interpolation points ,showcasing it's usability for generative AI related tasks.
+![VAE-grid](VAE_grid.jpeg)
+![AE-grid](AE_grid.jpeg)
