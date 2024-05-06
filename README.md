@@ -23,3 +23,23 @@ Showing below is the grid of the VAE ,followed by the AE's grid ,notice that the
 
 AE's grid below
 ![AE-grid](AE_grid.jpeg)
+
+
+### GAN
+
+To run the GAN please checkout the `GAN.py` file in the GAN directory.
+Run it using this 
+
+```
+python3 GAN.py --lr 1e-5 --epochs 2
+```
+
+Even after extensive grid search iover the hyper-parameters in the `run.py` file, it is too hard to converge within 10 epochs.
+We hypothesize that more training is required (50 epochs) on lower learning rates ~ 1e-7.
+Here is the loss plot for a couple epochs with that learning rate
+
+![GAN](GAN/losses_300.png)
+
+The file also generates the latent spaces images made by the generator. Please generate them by running the `GAN.py` file and looking in the appropriate directory
+
+
